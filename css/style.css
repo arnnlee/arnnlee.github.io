@@ -2,3 +2,9 @@ body {
     font-family: 'Livvic', sans-serif;
     padding-top: 50px;
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
