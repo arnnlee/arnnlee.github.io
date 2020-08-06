@@ -22,6 +22,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="manifest" href="images/site.webmanifest">
 
+  <!-- xterm.js -->
+  <link rel="stylesheet" href="node_modules/xterm/css/xterm.css" />
+  <script src="node_modules/xterm/lib/xterm.js"></script>
+
   <title>arnnlee</title>
 </head>
 
@@ -37,6 +41,7 @@
     <a href="https://github.com/arnnlee" class="button1 bouncy" style="animation-delay:0.14s">Github</a>
   </div>
 
+  <div id="terminal"></div>
 
   <footer class="footer">
     <div class="container" align="center">
@@ -47,6 +52,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/shell.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

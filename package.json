@@ -1,0 +1,7 @@
+{
+    "name": "aaron-personal-website",
+    "version": "1.0.0",
+    "dependencies": {
+        "xterm": "4.4.0"
+    }
+}
